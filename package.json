@@ -1,0 +1,10 @@
+{
+  "name": "succ-ai-skill",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node tools/record-demo.mjs"
+  }
+}
