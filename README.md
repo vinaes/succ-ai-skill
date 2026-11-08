@@ -10,8 +10,6 @@ Claude Code · Codex · OpenCode · Oh My Pi · Pi · Claude Desktop
 
 </div>
 
-> **Private preview.** Not published yet. The install command below works once the repository is public.
-
 ## Why
 
 Setting up a third-party API in a coding agent usually means pasting a key into a chat, hand-editing JSON, YAML and TOML, and guessing context sizes. This skill does it differently:
@@ -33,8 +31,7 @@ Then ask your agent something like *"connect Claude Code and Codex to succ.ai"*.
 **Without an agent:**
 
 ```sh
-git clone https://github.com/vinaes/succ-ai-skill
-node succ-ai-skill/skills/succ-ai/scripts/succ-setup.mjs setup
+npx -y github:vinaes/succ-ai-skill setup
 ```
 
 This needs Node.js 18 or later and has no dependencies. You'll also need a succ.ai API key from [succ.ai/dashboard/keys](https://succ.ai/dashboard/keys).
@@ -106,4 +103,4 @@ The generated configs were checked against OpenCode 1.17.13, Oh My Pi 18.18.1 an
 
 ## License
 
-No license has been chosen yet.
+[MIT](LICENSE) © VINAES CODE LTD. succ.ai is operated by VINAES CODE LTD.

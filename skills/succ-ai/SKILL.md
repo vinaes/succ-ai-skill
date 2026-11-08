@@ -1,6 +1,7 @@
 ---
 name: succ-ai
 description: "Connect coding agents to succ.ai, choose succ.ai models and handle succ.ai API errors without paying twice. Use when the user mentions succ.ai, succ or api.succ.ai; wants Claude Code, Claude Desktop, Codex, OpenCode, Pi or Oh My Pi to use a succ.ai key; compares succ.ai models, context, reasoning efforts or prices; or gets a succ.ai 401, 402, 404, 409, 429 or 503 error, a timeout or a cut-off stream."
+license: MIT
 ---
 
 # succ.ai
@@ -33,6 +34,7 @@ These apply to every task below.
 
 - **You may run** `node <skill-dir>/scripts/succ-setup.mjs models --json [--protocol chat|messages|responses]`. It lists the public catalog and needs no key.
 - **The user runs** `node <skill-dir>/scripts/succ-setup.mjs setup` in their own terminal. It needs a keyboard, so give them the command with the absolute path and don't run it yourself. `--dry-run` shows what their key can use and what would change, without writing anything.
+- **No local copy?** If you loaded this skill from a URL, the user can run the same script with `npx -y github:vinaes/succ-ai-skill setup`.
 
 ## Quick reference
 

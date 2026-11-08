@@ -1,7 +1,11 @@
 {
   "name": "succ-ai-skill",
+  "version": "0.1.0",
+  "description": "Connect coding agents to succ.ai without pasting your API key into a chat",
   "private": true,
+  "license": "MIT",
   "type": "module",
+  "bin": { "succ-setup": "skills/succ-ai/scripts/succ-setup.mjs" },
   "engines": { "node": ">=18" },
   "scripts": {
     "test": "node --test tests/*.test.mjs",
